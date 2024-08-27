@@ -205,4 +205,5 @@ class NeighborFinder:
         if result:
             filename = self.dlg.lineEdit.text()
             column_id = self.dlg.lineEdit_2.text()
-            print(filename, column_id)
+            print(filename)
+            print(column_id)
